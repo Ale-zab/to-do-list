@@ -1,0 +1,171 @@
+.main {
+    font-family: $descriptionFonts;
+}
+
+.container-basic {
+    width: 970px;
+    margin: 0 auto;
+    margin-top: 125px;
+}
+
+.container-all {
+    width: 470px;
+}
+
+.container-right {
+    background-color: #fff;
+}
+
+.container-all-right {
+    float: right;
+}
+
+.container-all-left {
+    float: left;
+}
+
+.title-container-right,
+.title-container-left {
+    font-size: 21px;
+    font-weight: 400;
+
+    text-align: left;
+}
+
+.form {
+    padding: 40px;
+}
+
+.title-field-form {
+    font-size: 14px;
+
+    color: #8993ad;
+}
+
+.title-field-form-required::before {
+    font-size: 18px;
+
+    margin-right: 5px;
+
+    content: '*';
+}
+
+.task { 
+    display: block;
+
+    width: 368px;
+    margin: 11px 0 28px 0;
+    padding: 15px 10px;
+
+    border: 1px solid #ebebeb;
+    background-color: #fcfcfc;
+}
+
+.task-description {
+    min-height: 230px;
+
+    resize: none;
+}
+
+.task-button {
+    font-size: 16px;
+    font-weight: 400;
+
+    padding: 20px 55px;
+
+    cursor: pointer;
+
+    color: #fff;
+    border: none;
+    background-color: #2174fd;
+}
+
+.task-button:hover {
+    background-color: #5394fc;
+}
+
+.clearfix:after {
+    display: table;
+    clear: both;
+
+    content: '';
+}
+
+.toDoList-block-top {
+    padding: 20px;
+
+    border-bottom: 1px solid #ebebeb;
+}
+
+.toDoList-block-name {
+    display: inline-block;
+    overflow: hidden;
+
+    max-width: 350px;
+    margin: 0;
+
+    word-break: break-all;
+}
+
+.toDoList-block-right {
+    float: right;
+}
+
+.clear {
+    line-height: 21px;
+
+    cursor: pointer;
+
+    border: none;
+    background: url('../img/clear-button.png') no-repeat center;
+}
+
+.hide {
+    line-height: 21px;
+
+    margin-right: 22px;
+
+    cursor: pointer;
+
+    border: none;
+    background: url('../img/hide.png') no-repeat center;
+}
+
+.rotateHide {
+    -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+}
+
+.toDoList-block-content {
+    padding: 20px;
+}
+
+.toDoList-block-required {
+    font-size: 14px;
+
+    overflow: hidden;
+
+    width: 430px;
+    margin: 0;
+
+    word-break: break-all;
+
+    color: #8993ad;
+}
+
+.toDoList-block {
+    display: block;
+
+    margin-bottom: 20px;
+
+    background-color: #fff;
+}
+
+.empty-toDoList-block {
+    display: block;
+
+    margin: 50px 0;
+
+    color: #8993ad;
+}

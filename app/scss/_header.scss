@@ -1,0 +1,59 @@
+.header {
+    background-color: #5394fc;
+}
+
+.header-block {
+    @extend %df-elem-row-bc;
+}
+
+.logo {
+    font-family: $titleFonts;
+    font-size: 26px;
+    font-weight: 700;
+
+    margin: 0;
+    padding: 15px 0;
+
+    color: #fff;
+}
+
+.logo span {
+    text-decoration: underline;
+}
+
+.menu-itme {
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
+
+    @extend %df-elem-row-bc;
+}
+
+.menu-item-list:nth-child(1) {
+    margin-right: 20px;
+}
+
+.menu-link {
+    font-family: $descriptionFonts;
+    font-size: 18px;
+
+    text-decoration: none;
+    word-spacing: 2px;
+
+    opacity: .7;
+    color: #fff;
+}
+
+.profile {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding-right: 30px;
+
+    background: url('../img/user.svg') right center no-repeat;
+    background-size: 14%;
+}
+
+.menu-link:hover {
+    opacity: 1;
+}
